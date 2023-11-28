@@ -1,9 +1,9 @@
-function skillMember() {
+function skillsMember() {
     return {
-        name: 'skillMember',
+        name: 'skillsMember',
         restrict: 'E',
         templateUrl: 'templates/skill-member.html',
-        controller: 'SkillMemberCtrl',
-        controllerAs: 'skillMemberCtrl'
+        controller: 'SkillsMemberCtrl',
+        controllerAs: 'skillsMemberCtrl'
     };
 }
